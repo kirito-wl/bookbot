@@ -1,5 +1,7 @@
+### Bookbot Program ###
+
 def main():
-    book_path = "books/frankenstein.txt"
+    book_path = "books/frankenstein.txt" # Amend as per desired book for analysis
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     chars_count = get_chars(text)
